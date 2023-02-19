@@ -741,7 +741,7 @@ img{
     color: #fff;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (max-width: 510px){
     .home, .about, .footer{
         text-align: center;
     }
