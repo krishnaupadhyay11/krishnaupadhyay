@@ -673,7 +673,7 @@ img{
 }
 
 .footer__bg{
-    background-color: var(--color-second);
+    background-color: var(--color-first);
     padding: 2rem 0 3rem;
 }
 
@@ -741,7 +741,7 @@ img{
     color: #fff;
 }
 
-@media screen and (max-width: 510px){
+@media screen and (min-width: 300px){
     .home, .about, .footer{
         text-align: center;
     }
@@ -760,10 +760,10 @@ img{
     }
     .home-content.grid{
         grid-template-columns: .25fr 3fr;
-        column-gap: 13rem;
     }
     .home-img{
-        width: max-content;
+        justify-self: flex-end;
+
     }
     .home-blob{
         width: 210px;
@@ -824,6 +824,9 @@ img{
     }
     .portfolio-data{
         align-self: center;
+    }
+    .project-img{
+        margin-right: 3rem;
     }
 }
 
