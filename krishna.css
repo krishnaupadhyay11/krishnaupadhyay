@@ -785,11 +785,8 @@ img{
         width:200px;
     }
     .Cbutton{
-        display: inline;
-        justify-self: center;
-    }
-    .contact__button{
-        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;        
     }
     .footer__links{
         margin:0;
@@ -1004,4 +1001,11 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+.Cbutton{
+    width: 110px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Josefine Sans', sans-serif;
 }
