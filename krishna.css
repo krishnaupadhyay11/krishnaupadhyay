@@ -789,6 +789,7 @@ img{
     }
     .project-img{
         width:200px;
+        margin: 0;
     }
     .Cbutton{
         margin-left: auto;
