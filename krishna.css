@@ -355,7 +355,7 @@ img{
 /* About */
 .about__img{
     width: 150px;
-    height: 311px;
+    height: 511px;
     object-fit: cover;
     border-radius: 0.5rem;
     justify-self: center;
