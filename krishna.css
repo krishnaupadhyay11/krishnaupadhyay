@@ -357,7 +357,7 @@ img{
     width: 150px;
     height: 421px;
     object-fit: cover;
-    object-position: 0px -33px;
+    object-position: 0px 33px;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
