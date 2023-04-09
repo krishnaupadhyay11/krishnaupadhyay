@@ -772,7 +772,7 @@ img{
         width: 111px;
     }
     .about-info{
-        justify-content: space-around;
+        justify-items: space-around;
     }
     .skills__list{
         display: grid;
