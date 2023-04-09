@@ -354,9 +354,6 @@ img{
 }
 /* About */
 .about__img{
-    width: 150px;
-    height: 457px;
-    object-fit: cover;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
@@ -772,6 +769,9 @@ img{
     .home-blob{
         width: 210px;
     }
+    .about-img{
+        width: 111px;
+    }
     .skills__list{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -897,7 +897,9 @@ img{
         column-gap: 5rem;
     }
     .about__img{
-        width: 350px;
+        width: 150px;
+        height: 457px;
+        object-fit: cover;
     }
     .about__desc{
         text-align: initial;
