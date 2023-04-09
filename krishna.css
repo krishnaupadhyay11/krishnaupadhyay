@@ -764,13 +764,15 @@ img{
     }
     .home-img{
         justify-self: flex-end;
-
     }
     .home-blob{
         width: 210px;
     }
     .about-img{
         width: 111px;
+    }
+    .about-info{
+        justify-content: space-around;
     }
     .skills__list{
         display: grid;
@@ -897,7 +899,6 @@ img{
         column-gap: 5rem;
     }
     .about__img{
-        width: 150px;
         height: 457px;
         object-fit: cover;
     }
