@@ -324,7 +324,7 @@ img{
 }
 
 .button:hover{
-    background-color: var(--color-gold);
+    background-color: var(--color-first-alt);
 }
 
 .button__icon{
