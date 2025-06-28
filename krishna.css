@@ -112,7 +112,7 @@ img{
 
 .section__title{
     font-size:var(--fs-h1);
-    margin-bottom: 0.7rem;
+    margin-bottom: 2rem;
 }
 
 .section__subtitle{
@@ -367,7 +367,8 @@ img{
 
 .about__info{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 12px;
     margin-bottom: 2.5rem;
 }
 
@@ -635,7 +636,7 @@ img{
 
 .contact__subtitle{
     font-size: 1.33rem;
-    color: hsl(251, 8%, 33%);
+    color: hsl(251, 8%, 60%);
 }
 
 .contact__content{
@@ -907,14 +908,16 @@ img{
         text-align: initial;
     }
     .about__info{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .about__buttons{
         justify-content: center;
     }
     .services__container{
-        grid-template-columns: repeat(4, 218px);
-        justify-content: space-between;
+        grid-template-columns: repeat(3, 218px);
+        justify-content: space-around;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .services__icon{
         font-size: 2rem;
@@ -986,7 +989,7 @@ img{
         transform: translateX(-6rem);
     }
     .services__container{
-        grid-template-columns: repeat(4, 238px);
+        grid-template-columns: repeat(3, 238px);
     }
     .portfolio__content{
         column-gap: 5rem;
